@@ -13,17 +13,23 @@
     <link rel="stylesheet" type="text/css" media="screen,print" href="Welcome_files/Welcome.css" />
     <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Welcome_files/WelcomeIE.css'/><![endif]-->
     <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <style type="text/css"><!--
+	@import "Scripts/Widgets/Timer/TimerWidget.css";
+--></style>
     <script type="text/javascript" src="Scripts/iWebSite.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
     <script type="text/javascript" src="Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="Scripts/iWebMediaGrid.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Timer/TimerWidget.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Timer/localizedStrings.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
     <script type="text/javascript" src="Welcome_files/Welcome.js"></script>
   </head>
   <body style="background: rgb(34, 6, 2); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
     <div style="text-align: center; ">
       <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  text-align: left; width: 700px; " id="body_content">
         <div style="background: transparent url(Welcome_files/background.jpg) repeat scroll top left; width: 700px; ">
-          <div style="height: 59px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+          <div style="height: 67px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
             <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
             <div style="height: 60px; width: 700px;  height: 60px; left: 0px; position: absolute; top: 0px; width: 700px; z-index: 1; " class="tinyText style_SkipStroke">
               <img src="Welcome_files/bled_top-1.png" alt="" style="border: none; height: 60px; width: 700px; " />
@@ -36,19 +42,25 @@
                 <img src="Welcome_files/shapeimage_1.png" alt="" style="height: 61px; left: 0px; margin-left: -11px; margin-top: -4px; position: absolute; top: 0px; width: 288px; " />
               </div>
             </div>
+            <div class="com-apple-iweb-widget-timer" id="widget0" style="height: 51px; left: 312px; opacity: 1.00; position: absolute; top: 16px; width: 151px; z-index: 1; ">
+              <div id="widget0-timer" class="timer_widget noAutoPNGFixInTree"></div>
+            </div>
+            <script type="text/javascript"><!--//--><![CDATA[//><!--
+new TimerWidget('widget0', 'Scripts/Widgets/Timer', 'Scripts/Widgets/SharedResources', '.', {"unitsRange": {"location": 1, "length": 4}, "labelsEnabled": 1, "labelFontFactor": 1.2, "type": 3, "0": "Welcome_files\/0.png", "target": 1432904220000, "1": "Welcome_files\/1.png", "bg-cap-left": "Welcome_files\/bg-cap-left.png", "2": "Welcome_files\/2.png", "labelFontSize": 10.19999980926514, "bg-dividerline": "Welcome_files\/bg-dividerline.jpg", "3": "Welcome_files\/3.png", "4": "Welcome_files\/4.png", "5": "Welcome_files\/5.png", "6": "Welcome_files\/6.png", "fg-separator": "Welcome_files\/fg-separator.jpg", "bg-cap-right": "Welcome_files\/bg-cap-right.png", "7": "Welcome_files\/7.png", "bg-center": "Welcome_files\/bg-center.png", "8": "Welcome_files\/8.png", "9": "Welcome_files\/9.png"});
+//--><!]]></script>
           </div>
           <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
             <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
             <div style="height: 1px; line-height: 1px; " class="tinyText"> </div>
-            <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 0px; margin-top: -1px; opacity: 1.00; position: relative; width: 700px; z-index: 1; ">
+            <div class="com-apple-iweb-widget-navbar flowDefining" id="widget1" style="margin-left: 0px; margin-top: -1px; opacity: 1.00; position: relative; width: 700px; z-index: 1; ">
     
-              <div id="widget0-navbar" class="navbar">
+              <div id="widget1-navbar" class="navbar">
 
       
-                <div id="widget0-bg" class="navbar-bg">
+                <div id="widget1-bg" class="navbar-bg">
 
         
-                  <ul id="widget0-navbar-list" class="navbar-list">
+                  <ul id="widget1-navbar-list" class="navbar-list">
  <li></li> 
 </ul>
                   
@@ -59,7 +71,7 @@
 </div>
             </div>
             <script type="text/javascript"><!--//--><![CDATA[//><!--
-new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"path-to-root": "", "navbar-css": ".navbar {\n\tfont-family: 'Courier New', Courier, monospace, serif;\n\tfont-size: 1em;\n\tcolor: #DDC9A9;\n\tmargin: 0px 0px 0 35px;\n\tpadding: 0px;\n\tfont-weight: bold;\n}\n\n.navbar-bg {\n\ttext-align: left;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px 10px 0 0;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tmargin: 0;\n\tpadding: 0px 20px 0px 0px;\n\tline-height: 30px;\n}\n\nli a {\n\ttext-decoration: none;\n\tcolor: #DDC9A9;\n}\n\nli a:visited\t {\n\ttext-decoration: none;\n\tcolor: #DDC9A9;\n}\n\nli a:hover\r{\r\n \tcolor: #FFF;\n\ttext-decoration: none;\r}\n\n\nli.current-page a\r{\r\t color: #A9562E;\n\ttext-decoration: none;\r}", "current-page-GUID": "B93F7C56-0CAA-4D94-920D-1DAAAB49E740", "isCollectionPage": "NO"});
+new NavBar('widget1', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"path-to-root": "", "navbar-css": ".navbar {\n\tfont-family: 'Courier New', Courier, monospace, serif;\n\tfont-size: 1em;\n\tcolor: #DDC9A9;\n\tmargin: 0px 0px 0 35px;\n\tpadding: 0px;\n\tfont-weight: bold;\n}\n\n.navbar-bg {\n\ttext-align: left;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px 10px 0 0;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tmargin: 0;\n\tpadding: 0px 20px 0px 0px;\n\tline-height: 30px;\n}\n\nli a {\n\ttext-decoration: none;\n\tcolor: #DDC9A9;\n}\n\nli a:visited\t {\n\ttext-decoration: none;\n\tcolor: #DDC9A9;\n}\n\nli a:hover\r{\r\n \tcolor: #FFF;\n\ttext-decoration: none;\r}\n\n\nli.current-page a\r{\r\t color: #A9562E;\n\ttext-decoration: none;\r}", "current-page-GUID": "B93F7C56-0CAA-4D94-920D-1DAAAB49E740", "isCollectionPage": "NO"});
 //--><!]]></script>
             <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
           </div>

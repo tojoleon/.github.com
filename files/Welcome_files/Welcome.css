@@ -14,15 +14,19 @@
     background: transparent;
     opacity: 1.00;
 }
-.bumper {
+.spacer {
     font-size: 1px;
     line-height: 1px;
 }
-.tinyText {
-    font-size: 1px;
-    line-height: 1px;
+#widget1 a {
+    color: rgb(32, 15, 10);
+    text-decoration: none;
 }
 #widget0 a:hover {
+    color: rgb(185, 106, 60);
+    text-decoration: none;
+}
+#widget1 a:hover {
     color: rgb(185, 106, 60);
     text-decoration: none;
 }
@@ -34,7 +38,32 @@
     color: rgb(32, 15, 10);
     text-decoration: none;
 }
-.spacer {
+#widget1 a:visited {
+    color: rgb(121, 121, 121);
+    text-decoration: none;
+}
+#widget0 .Timer_Labels {
+    color: rgb(87, 79, 79);
+    font-family: 'Handwriting-Dakota', 'Handwriting - Dakota';
+    font-size: 10px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 14px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+}
+.tinyText {
+    font-size: 1px;
+    line-height: 1px;
+}
+.bumper {
     font-size: 1px;
     line-height: 1px;
 }
